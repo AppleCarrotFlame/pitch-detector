@@ -20,11 +20,16 @@ example:
 ```
   $ pitch-detector.sh "my piano sample.wav"
   $ ls -l output/
-  output/D# my piano sample.wav
+  output/D2# my piano sample.wav
 ```
 
 example:
 ```
   $ find . -type f -iname *.wav -exec pitch-detector.sh {} \;
   $ ls -l output/
+  output/D2# my piano sample_01.wav
+  output/E2 my piano sample_02.wav
+  output/F2 my piano sample_03.wav
+  output/F2# my piano sample_04.wav
+  ...
 ```
